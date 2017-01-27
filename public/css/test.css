@@ -1,0 +1,50 @@
+body 
+{
+    font-family: 'Lato';
+	padding-top: 70px;
+	background: #775f63;
+
+}
+.panel-body{
+    background-color: #EEE;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover
+{
+    background-color:#E41B17;      
+}
+
+.dropdown-menu > li > a{
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+    
+}
+
+.dropdown{
+    padding-right: 10px;
+}
+.dropdown-menu{
+    border-top:2px solid #E41B17;
+}
+.navbar-right .dropdown-menu{
+    left: 0;
+    right: auto;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover
+{
+    background-color:#E41B17;
+    padding-left: 30px;
+}
+
+.navbar-brand{
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
